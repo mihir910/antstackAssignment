@@ -16,7 +16,7 @@ function App() {
   function handleViewData()
   {
 
-    console.log([<DisplayComponent />]);
+//     console.log([<DisplayComponent />]);
     [<DisplayComponent/>].map((Component,i) => console.log(Component))
   }
 
