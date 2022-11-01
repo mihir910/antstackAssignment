@@ -17,7 +17,7 @@ function App() {
   {
 
 //     console.log([<DisplayComponent />]);
-    [<DisplayComponent/>].map((Component,i) => console.log(Component))
+//     [<DisplayComponent/>].map((Component,i) => console.log(Component))
   }
 
   return (
