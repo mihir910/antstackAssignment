@@ -13,6 +13,11 @@ function App() {
     return setCount(count + 1);
   }
 
+  function handleDeleteEmployee()
+  {
+    return setCount(count - 1);
+  }
+
   function handleViewData()
   {
 
@@ -26,6 +31,9 @@ function App() {
       {[...Array(count)].map((_, i) => <DisplayComponent key={i} />)}
       <div className='container mt-2' style={{ "textAlign": 'center' }}>
         <button className='btn btn-secondary' onClick={() => handleAddEmployee()}>Add Employee</button>
+      </div>
+      <div className='container mt-2' style={{ "textAlign": 'center' }}>
+        <button className='btn btn-secondary' onClick={() => handledeleteEmployee()}>Delete Employee</button>
       </div>
       <div className='container mt-2' style={{ "textAlign": 'center' }}>
         <button className='btn btn-secondary' onClick={() => handleViewData()}>View Data</button>
