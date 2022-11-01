@@ -33,7 +33,7 @@ function App() {
         <button className='btn btn-secondary' onClick={() => handleAddEmployee()}>Add Employee</button>
       </div>
       <div className='container mt-2' style={{ "textAlign": 'center' }}>
-        <button className='btn btn-secondary' onClick={() => handledeleteEmployee()}>Delete Employee</button>
+        <button className='btn btn-secondary' onClick={() => handleDeleteEmployee()}>Delete Employee</button>
       </div>
       <div className='container mt-2' style={{ "textAlign": 'center' }}>
         <button className='btn btn-secondary' onClick={() => handleViewData()}>View Data</button>
